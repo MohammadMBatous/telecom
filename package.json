@@ -1,0 +1,27 @@
+{
+  "name": "telecom-sy",
+  "version": "1.0.0",
+  "description": "bots for telecom-sy",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "telecom",
+    "sy"
+  ],
+  "author": "Mohammad Mahmoud Batous",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "dotenv": "^16.4.7",
+    "node-persist": "^4.0.4",
+    "telegraf": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
